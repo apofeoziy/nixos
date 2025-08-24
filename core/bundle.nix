@@ -1,0 +1,26 @@
+{
+  imports = [
+    #./modules/laptop.nix
+    ./modules/bluetooth.nix
+    ./modules/nvidia.nix
+    ./modules/bootloader.nix
+    ./modules/periphery.nix
+    ./modules/sound.nix
+    ./modules/zram.nix
+    ./modules/user.nix
+    ./modules/ssh.nix
+    ./modules/yubikey.nix
+    ./modules/login.nix
+    #./modules/zapret.nix
+    #./modules/iphone.nix
+    #./modules/virtualization.nix
+    ./modules/hyprland.nix
+    ./modules/gaming.nix
+    ./modules/vr.nix
+    ./modules/nixld.nix
+    ./modules/sunshine.nix
+    ./modules/davinci
+    ./modules/hiddify.nix
+    ./modules/ydotool.nix
+  ];
+}
